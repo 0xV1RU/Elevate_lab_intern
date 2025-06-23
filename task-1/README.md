@@ -67,34 +67,34 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 	
 	🔴 135/tcp (msrpc - Microsoft Remote Procedure Call)
 		Use: Handles inter-process communication.
-		Risks: Often targeted for privilege escalation.
-		       Vulnerable to DCE-RPC based attacks.
+		⚠️Risks: Often targeted for privilege escalation.
+		          Vulnerable to DCE-RPC based attacks.
 		Famous Exploits: MS03-026 (Blaster worm), CVE-2003-0352.
 		Mitigation: Block from external access via firewall.
 
 	🔴 139/tcp (NetBIOS Session Service)
 		Use: Used for Windows file/printer sharing in older systems.
-		Risks:  Information Disclosure via null session.
-			Attacker can enumerate usernames, shares, policies.
+		⚠️Risks: Information Disclosure via null session.
+			 Attacker can enumerate usernames, shares, policies.
 		Mitigation: Disable NetBIOS if not needed; use SMB v2+.
 
 	🔴 445/tcp (Microsoft-DS / SMB)
 		Use: Windows file sharing and domain services.
-		Risks:  Critical vulnerabilities (e.g. EternalBlue - CVE-2017-0144).
-			Ransomware often exploits SMB (e.g. WannaCry).
+		⚠️Risks: Critical vulnerabilities (e.g. EternalBlue - CVE-2017-0144).
+			  Ransomware often exploits SMB (e.g. WannaCry).
 		Mitigation: Disable SMBv1.
 			    Use strong passwords.
 			    Keep OS patched.
 
 	🟠 2179/tcp (VMRDP - Remote Desktop for Hyper-V VMs)
 		Use: Remote Desktop Protocol for VMs.
-		Risks:  If exposed, attacker can brute-force login or exploit RDP vulns.
+		⚠️Risks:  If exposed, attacker can brute-force login or exploit RDP vulns.
 		Mitigation: Use RDP over VPN only. Enable 2FA, lockout policies.
 
 	🟡 49669/tcp (Unknown High Port - Likely Dynamic RPC)
 		Use: Random high port used for Dynamic RPC connections.
-		Risks:  Used in combo with port 135/445 by RPC services.
-			Could be misused by malware.
+		⚠️Risks:  Used in combo with port 135/445 by RPC services.
+			   Could be misused by malware.
 		Mitigation: Allow only trusted internal access.
 
 
