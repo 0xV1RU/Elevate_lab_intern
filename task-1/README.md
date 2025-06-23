@@ -98,6 +98,12 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 		Mitigation: Allow only trusted internal access.
 
 
+  | Port | Service     | Risk Level | Notes                      |
+|------|-------------|------------|----------------------------|
+| 445  | SMB         | 🔴 High    | EternalBlue vulnerability |
+
+
+
 
 ---
 
