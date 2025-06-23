@@ -1,5 +1,6 @@
 # Elevate_lab_intern
 1.finding local IP range
+
 	Commmand : ifconfig , ip a 
 	Output : eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         		inet 192.168.228.129  netmask 255.255.255.0  broadcast 192.168.228.255
