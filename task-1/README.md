@@ -98,9 +98,15 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 		Mitigation: Allow only trusted internal access.
 
 
-  | Port | Service     | Risk Level | Notes                      |
-|------|-------------|------------|----------------------------|
-| 445  | SMB         | 🔴 High    | EternalBlue vulnerability |
+
+| Port | Service       | Description                      | Risk Level | Note |
+|------|---------------|----------------------------------|------------|------|
+| 135  | MSRPC         | Windows RPC Service              | 🔴 High    | Exploitable via DCE-RPC |
+| 139  | NetBIOS-SSN   | File Sharing (Legacy)            | 🔴 High    | Can leak usernames, shares |
+| 445  | Microsoft-DS  | SMB File Sharing                 | 🔴 High    | Target of EternalBlue |
+| 2179 | VMRDP         | RDP for VMs                      | 🟠 Medium  | Lock it down internally |
+| 49669| Unknown       | Likely dynamic RPC port          | 🟡 Variable| Monitor & inspect manually |
+
 
 
 
