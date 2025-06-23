@@ -28,7 +28,9 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 
 ## 2.finding active machines
 
-	sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
+**Command Used:**
+```bash	
+ sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
 		Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 15:41 IST
 		Nmap scan report for 192.168.228.73
 		Host is up (0.0022s latency).
