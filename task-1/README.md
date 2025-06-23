@@ -1,7 +1,7 @@
 ##1.finding local IP range
 
 ```ifconfig , ip a```
-eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+	eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         		inet 192.168.228.129  netmask 255.255.255.0  broadcast 192.168.228.255
 		        inet6 fe80::20c:29ff:fe12:e534  prefixlen 64  scopeid 0x20<link>
 		        ether 00:0c:29:12:e5:34  txqueuelen 1000  (Ethernet)
