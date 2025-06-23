@@ -5,8 +5,7 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 
 ## 1.finding local IP range
 
-  	**Command Used:**
-	```bash
+
   	ifconfig , ip 
 	
  	eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -28,11 +27,11 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 		        TX packets 8  bytes 480 (480.0 B)
 		        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+
 ## 2.finding active machines
 
-**Command Used:**
-```bash	
- sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
+
+	 sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
 		Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 15:41 IST
 		Nmap scan report for 192.168.228.73
 		Host is up (0.0022s latency).
