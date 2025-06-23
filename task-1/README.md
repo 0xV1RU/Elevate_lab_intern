@@ -21,7 +21,7 @@
 		        TX packets 8  bytes 480 (480.0 B)
 		        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-##2.finding active machines
+## 2.finding active machines
 
 	sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
 		Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 15:41 IST
@@ -36,7 +36,7 @@
 		Nmap done: 256 IP addresses (3 hosts up) scanned in 3.01 seconds
 
 
-#3.finding open ports
+## 3.finding open ports
 
 	Command : sudo nmap -p- 192.168.228.73  -oN port_scan.txt        
 		Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 15:46 IST
@@ -55,7 +55,7 @@
 
 		Nmap done: 1 IP address (1 host up) scanned in 124.10 seconds
 
-4.Identify potential security risks from open ports.
+## 4.Identify potential security risks from open ports.
 	
 	🔴 135/tcp (msrpc - Microsoft Remote Procedure Call)
 		Use: Handles inter-process communication.
