@@ -1,3 +1,8 @@
+# 🛡️ Task-1: Network Reconnaissance using Nmap
+
+## 🎯 Objective
+Perform basic network scanning using Nmap to discover active devices, open ports, and identify potential risks.
+
 ## 1.finding local IP range
 
 ```ifconfig , ip a```
