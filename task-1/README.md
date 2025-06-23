@@ -1,4 +1,4 @@
-##1.finding local IP range
+## 1.finding local IP range
 
 ```ifconfig , ip a```
 
