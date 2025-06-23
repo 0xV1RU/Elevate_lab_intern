@@ -5,7 +5,8 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 
 ## 1.finding local IP range
 
- 	**ifconfig , ip a**
+ 	```bash
+  	ifconfig , ip 
 	
  	eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         		inet 192.168.228.129  netmask 255.255.255.0  broadcast 192.168.228.255
