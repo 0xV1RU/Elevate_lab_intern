@@ -88,6 +88,11 @@ Identify phishing characteristics in a suspicious email sample.
 - **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
 
 ## 📎 Attachment Header Analysis
+### The following headers in the email confirm the presence of a suspicious attachment:
         Content-Type: application/pdf; name="PuzzleToCoCanDa.pdf"
         Content-Transfer-Encoding: base64
         Content-Disposition: attachment; filename="PuzzleToCoCanDa.pdf"
+
+This header confirms that a suspicious PDF file named PuzzleToCoCanDa.pdf is attached. Since PDF files are commonly used to hide phishing forms or malware, this is a red flag. The attachment is base64-encoded, making it difficult to inspect its contents without decoding. This is often used to hide malicious payloads.The PDF is attached directly as a downloadable file, further confirming that the attacker wants the user to open it manually — a common phishing method.
+
+⚠️ **Conclusion:** The attachment poses a high risk and should not be opened without sandbox or antivirus scanning.
