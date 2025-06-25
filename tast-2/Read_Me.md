@@ -2,7 +2,7 @@
 ## 🎯 Objective Objective: 
 Identify phishing characteristics in a suspicious email sample.
 
-## 🎯 Header Analysis
+##  Header Analysis
     
     Delivered-To: themajoronearth@gmail.com
     Received: by 2002:a92:bd02:0:0:0:0:0 with SMTP id c2csp3604485ile;
@@ -67,7 +67,7 @@ Identify phishing characteristics in a suspicious email sample.
 - **Message-ID:** `<...@localhost>`  Message generated from a local system instead of a real email provider — a strong sign of spoofing.
 
 
-## 🎯Authentication & Spoofing Proof
+## Authentication & Spoofing Proof
         ARC-Authentication-Results: i=1; mx.google.com;
            spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
     Return-Path: <billjobs@microapple.com>
