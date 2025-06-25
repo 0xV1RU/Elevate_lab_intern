@@ -35,3 +35,24 @@ Identify phishing characteristics in a suspicious email sample.
 - **Delivered-To:** `themajoronearth@gmail.com` — final delivery address.
 - **Received (Google):** Email was accepted by Gmail's internal SMTP server on `25 Jan 2021 at 10:41 PM PST`.
 - **ARC-Seal & ARC-Message-Signature:** Indicates Google's email authentication process. The field `cv=none` suggests that this email did not come with a valid authentication chain, which reduces trust.
+
+
+## 🎯Authentication & Spoofing Proof
+        ARC-Authentication-Results: i=1; mx.google.com;
+           spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
+    Return-Path: <billjobs@microapple.com>
+    Received: from localhost (emkei.cz. [93.99.104.210])
+            by mx.google.com with ESMTPS id s16si170171wmj.176.2021.01.25.22.41.18
+            for <themajoronearth@gmail.com>
+            (version=TLS1_2 cipher=ECDHE-ECDSA-CHACHA20-POLY1305 bits=256/256);
+            Mon, 25 Jan 2021 22:41:18 -0800 (PST)
+    Received-SPF: fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) client-ip=93.99.104.210;
+    Authentication-Results: mx.google.com;
+           spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
+    Received: by localhost (Postfix, from userid 33)
+    	id 1993E221F8; Tue, 26 Jan 2021 01:41:18 -0500 (EST)
+- **SPF Fail:**  spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210...) The SPF record for the sender domain (`microapple.com`) does not authorize this IP to send mail. **Strong proof of spoofing.**
+- **Return-Path:** billjobs@microapple.com (Shows spoofed sender email. Bounce messages also go to a fake domain.)
+- **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from **emkei.cz**, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
+- **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as **not trusted**.
+- **Postfix via localhost:**  The email was crafted and sent via local server setup — **not an official provider like Gmail, Outlook, etc.**
