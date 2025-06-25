@@ -116,5 +116,5 @@ There is **no official contact information**, no company identification, and the
 ⚠️ **Conclusion:** The attachment poses a high risk and should not be opened without sandbox or antivirus scanning.
 
 
-![image](https://github.com/user-attachments/assets/094728b0-f0fe-4504-9f66-847ed63b79bd)
+
 
