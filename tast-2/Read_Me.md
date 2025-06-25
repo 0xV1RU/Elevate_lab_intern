@@ -1,4 +1,4 @@
-# 🛡️ Phishing Email Analysis Report
+# 🛡️ Phishing Email Analysis Report – Task 2
 ## 🎯 Objective Objective: 
 Identify phishing characteristics in a suspicious email sample.
 
