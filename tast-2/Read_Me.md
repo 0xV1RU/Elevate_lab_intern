@@ -81,11 +81,11 @@ Identify phishing characteristics in a suspicious email sample.
            spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
     Received: by localhost (Postfix, from userid 33)
     	id 1993E221F8; Tue, 26 Jan 2021 01:41:18 -0500 (EST)
-> **SPF Fail:**  spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210...) The SPF record for the sender domain (`microapple.com`) does not authorize this IP to send mail. ***Strong proof of spoofing.***
-> **Return-Path:** billjobs@microapple.com (Shows spoofed sender email. Bounce messages also go to a fake domain.)
-> **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from ***emkei.cz***, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
-> **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as ***not trusted***.
-> **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
+- **SPF Fail:**  spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210...) The SPF record for the sender domain (`microapple.com`) does not authorize this IP to send mail. ***Strong proof of spoofing.***
+- **Return-Path:** billjobs@microapple.com (Shows spoofed sender email. Bounce messages also go to a fake domain.)
+- **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from ***emkei.cz***, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
+- **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as ***not trusted***.
+- **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
 
 ## 🧠 Email Body Analysis
 The body of the email contains a suspicious narrative involving:
