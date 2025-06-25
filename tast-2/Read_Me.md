@@ -86,3 +86,8 @@ Identify phishing characteristics in a suspicious email sample.
 - **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from ***emkei.cz***, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
 - **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as ***not trusted***.
 - **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
+
+## 📎 Attachment Header Analysis
+        Content-Type: application/pdf; name="PuzzleToCoCanDa.pdf"
+        Content-Transfer-Encoding: base64
+        Content-Disposition: attachment; filename="PuzzleToCoCanDa.pdf"
