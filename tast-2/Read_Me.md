@@ -1,5 +1,5 @@
 # 🛡️ Phishing Email Analysis Report – Task 2
-## 🎯 Objective Objective: 
+## 🎯 Objective: 
 Identify phishing characteristics in a suspicious email sample.
 
 ##  Header Analysis
@@ -81,11 +81,29 @@ Identify phishing characteristics in a suspicious email sample.
            spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
     Received: by localhost (Postfix, from userid 33)
     	id 1993E221F8; Tue, 26 Jan 2021 01:41:18 -0500 (EST)
-- **SPF Fail:**  spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210...) The SPF record for the sender domain (`microapple.com`) does not authorize this IP to send mail. ***Strong proof of spoofing.***
-- **Return-Path:** billjobs@microapple.com (Shows spoofed sender email. Bounce messages also go to a fake domain.)
-- **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from ***emkei.cz***, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
-- **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as ***not trusted***.
-- **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
+> **SPF Fail:**  spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210...) The SPF record for the sender domain (`microapple.com`) does not authorize this IP to send mail. ***Strong proof of spoofing.***
+> **Return-Path:** billjobs@microapple.com (Shows spoofed sender email. Bounce messages also go to a fake domain.)
+> **Mail Origin (Received):**  from emkei.cz. [93.99.104.210] The email originated from ***emkei.cz***, a known spoofing service. This clearly shows that the email was forged using a public spoofing tool.
+> **Authentication-Results:**  spf=fail ...   Gmail failed to authenticate the sender. This marks the email as ***not trusted***.
+> **Postfix via localhost:**  The email was crafted and sent via local server setup — ***not an official provider like Gmail, Outlook, etc.***
+
+## 🧠 Email Body Analysis
+The body of the email contains a suspicious narrative involving:
+
+- A fabricated story about a secret mission
+- The abduction of the President’s daughter
+- Hidden gold reserves worth billions of dollars
+- Urgent request to help by opening a bank account
+- Emotional language meant to manipulate the recipient
+
+These are classic **social engineering tactics**, often used in phishing emails to:
+
+- Create fear or excitement
+- Trick the reader into responding without thinking
+- Convince the user to share personal or financial information
+
+There is **no official contact information**, no company identification, and the language is intentionally vague yet urgent — all signs of a scam.
+
 
 ## 📎 Attachment Header Analysis
 ### The following headers in the email confirm the presence of a suspicious attachment:
@@ -96,3 +114,7 @@ Identify phishing characteristics in a suspicious email sample.
 *This header confirms that a suspicious PDF file named PuzzleToCoCanDa.pdf is attached. Since PDF files are commonly used to hide phishing forms or malware, this is a red flag. The attachment is base64-encoded, making it difficult to inspect its contents without decoding. This is often used to hide malicious payloads.The PDF is attached directly as a downloadable file, further confirming that the attacker wants the user to open it manually — a common phishing method.*
 
 ⚠️ **Conclusion:** The attachment poses a high risk and should not be opened without sandbox or antivirus scanning.
+
+
+![image](https://github.com/user-attachments/assets/094728b0-f0fe-4504-9f66-847ed63b79bd)
+
