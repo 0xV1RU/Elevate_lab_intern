@@ -67,7 +67,7 @@ Identify phishing characteristics in a suspicious email sample.
 - **Message-ID:** `<...@localhost>`  Message generated from a local system instead of a real email provider — a strong sign of spoofing.
 
 
-## Authentication & Spoofing Proof
+## 🔐Authentication & Spoofing Proof
         ARC-Authentication-Results: i=1; mx.google.com;
            spf=fail (google.com: domain of billjobs@microapple.com does not designate 93.99.104.210 as permitted sender) smtp.mailfrom=billjobs@microapple.com
     Return-Path: <billjobs@microapple.com>
@@ -93,6 +93,6 @@ Identify phishing characteristics in a suspicious email sample.
         Content-Transfer-Encoding: base64
         Content-Disposition: attachment; filename="PuzzleToCoCanDa.pdf"
 
-This header confirms that a suspicious PDF file named PuzzleToCoCanDa.pdf is attached. Since PDF files are commonly used to hide phishing forms or malware, this is a red flag. The attachment is base64-encoded, making it difficult to inspect its contents without decoding. This is often used to hide malicious payloads.The PDF is attached directly as a downloadable file, further confirming that the attacker wants the user to open it manually — a common phishing method.
+*This header confirms that a suspicious PDF file named PuzzleToCoCanDa.pdf is attached. Since PDF files are commonly used to hide phishing forms or malware, this is a red flag. The attachment is base64-encoded, making it difficult to inspect its contents without decoding. This is often used to hide malicious payloads.The PDF is attached directly as a downloadable file, further confirming that the attacker wants the user to open it manually — a common phishing method.*
 
 ⚠️ **Conclusion:** The attachment poses a high risk and should not be opened without sandbox or antivirus scanning.
