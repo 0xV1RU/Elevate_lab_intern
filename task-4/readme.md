@@ -71,10 +71,11 @@ Navigated back to Inbound Rules, Located “`Block Telnet`” → Right-click �
 
 
 ### (Linux_only) Allowed SSH (Port-22)
-`sudo ufw enable`
-`sudo ufw deny 22/tcp` - this command will block incoming connections on port 22. 
-`sudo ufw status numbered` - To view all active UFW firewall rules with numbers assigned to each rule.
-![image](https://github.com/user-attachments/assets/5df15aea-0e46-462b-8942-2ea688ba4717)
+- `sudo ufw enable`
+- `sudo ufw allow 22/tcp` - this command will block incoming connections on port 22. 
+- `sudo ufw status numbered` - To view all active UFW firewall rules with numbers assigned to each rule.
+![image](https://github.com/user-attachments/assets/e996a2b5-d4a2-4ad5-9546-4e5996a818db)
+
 
 ### Summarized Firewall Behavior
 - Firewalls filter traffic based on rules like port numbers, direction, protocol.
