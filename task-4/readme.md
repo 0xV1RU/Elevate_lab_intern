@@ -49,3 +49,7 @@ Select when the rule applies:
 ### Tested the Rule
 - Tried `telnet localhost 23` — Connection failed (blocked)
 - Confirmed firewall rule is active and working
+
+### Removed the Test Rule
+Navigated back to Inbound Rules,Located “`Block Telnet`” → Right-click → Delete
+
