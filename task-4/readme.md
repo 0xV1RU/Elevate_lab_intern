@@ -9,8 +9,9 @@
 
 ### Firewall Configuration Tool
     win+r = wf.msc
+> Press (⊞) + R, then type `wf.msc` and press ⏎ to open Windows Defender Firewall with Advanced Security.
+> 
 ![image](https://github.com/user-attachments/assets/fd4b3192-b447-401d-a827-a35705ca05ca)
 ![image](https://github.com/user-attachments/assets/522f445d-5929-4b9a-96dd-7027f14419ee)
 
-
-
+### Add a rule to block inbound traffic
