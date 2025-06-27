@@ -65,10 +65,20 @@ Select when the rule applies:
 
 ### Removed the Test Rule
 Navigated back to Inbound Rules, Located “`Block Telnet`” → Right-click → Delete
+![delete test rule](https://github.com/user-attachments/assets/581e9a09-aab8-48e6-bea4-f8c1be2f104c)
+![image](https://github.com/user-attachments/assets/b9be3259-dacd-4bd3-9690-460ae7787fd7)
+
+
 
 ### (Linux_only) Allowed SSH (Port-22)
-```bash
 `sudo ufw enable`
-`sudo ufw allow 22/tcp
+`sudo ufw deny 22/tcp` - this command will block incoming connections on port 22. 
+`sudo ufw status numbered` - To view all active UFW firewall rules with numbers assigned to each rule.
+![image](https://github.com/user-attachments/assets/5df15aea-0e46-462b-8942-2ea688ba4717)
+
+### Summarized Firewall Behavior
+- Firewalls filter traffic based on rules like port numbers, direction, protocol.
+- Blocking Telnet is a common practice because it’s insecure (no encryption).
+
 
 
