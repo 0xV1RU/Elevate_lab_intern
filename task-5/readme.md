@@ -47,7 +47,7 @@ To capture live network packets using Wireshark and identify at least three diff
   ![image](https://github.com/user-attachments/assets/10eaaff2-69f7-42a6-a84b-8edf4173ed43)
 
 > #### 🧾Summary of Findings and Packet Details
-During the capture session, various packets were observed using the tshark tool while generating traffic through command-line utilities `ping`, `dig`, and `curl`. The `.pcap` file contains clear evidence of different network protocols interacting over the internet.
+During the capture session, various packets were observed using the tshark tool while generating traffic through command-line utilities `ping`, `dig`, and `curl`. The [.pcap](https://github.com/0xV1RU/Elevate_lab_intern/blob/main/task-5/t5_capture.pcap) file contains clear evidence of different network protocols interacting over the internet.
 
 > **✅ Identified Protocols:**
 
