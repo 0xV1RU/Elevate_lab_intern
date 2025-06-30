@@ -49,21 +49,24 @@ To capture live network packets using Wireshark and identify at least three diff
 > #### 🧾Summary of Findings and Packet Details
 During the capture session, various packets were observed using the tshark tool while generating traffic through command-line utilities `ping`, `dig`, and `curl`. The [.pcap](https://github.com/0xV1RU/Elevate_lab_intern/blob/main/task-5/t5_capture.pcap) file contains clear evidence of different network protocols interacting over the internet.
 
-> **✅ Identified Protocols:**
+> **✅ Identified Protocols (with count):**
 
-    8 ARP
-    236 DNS
-      2 HTTP
-     22 ICMPv6
-     10 IGMPv3
-      1 IPv4
-      4 LLMNR
-      8 MDNS
-      2 NTP
-     42 OCSP
-    168 QUIC
-    2297 TCP
-      1 TLSv1
-    114 TLSv1.2
-    1242 TLSv1.3
+| Protocol   | Count |
+|------------|-------|
+| ARP        | 8     |
+| DNS        | 236   |
+| HTTP       | 2     |
+| ICMPv6     | 22    |
+| IGMPv3     | 10    |
+| IPv4       | 1     |
+| LLMNR      | 4     |
+| MDNS       | 8     |
+| NTP        | 2     |
+| OCSP       | 42    |
+| QUIC       | 168   |
+| TCP        | 2297  |
+| TLSv1      | 1     |
+| TLSv1.2    | 114   |
+| TLSv1.3    | 1242  |
+
 
