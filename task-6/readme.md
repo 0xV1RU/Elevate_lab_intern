@@ -24,7 +24,7 @@ Gives security tips and promotes stronger alternatives.
 | `S3cur3P@$$w0Rd!`      | 100%           | PasswordMeter.com      | Very strong: long, random phrase-based   |
 | `H!@k3r_M!nd_789`      | 100%           | PasswordMeter.com      | Very strong: high complexity and length  |
 
-📸 All screenshots of evaluations are saved in the [/screenshots](https://github.com/0xV1RU/Elevate_lab_intern/tree/main/task-6/screenshots) folder.
+📸 All screenshots of evaluations are saved in the [/screenshots](https://github.com/0xV1RU/Elevate_lab_intern/tree/main/task-6/screenshots) folder or [/screenshots/readme.md](https://github.com/0xV1RU/Elevate_lab_intern/blob/main/task-6/screenshots/readme.md)
 
 ---
 ### 📚 Key Learnings and Best Practices:
