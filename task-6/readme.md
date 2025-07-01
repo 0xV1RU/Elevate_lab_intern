@@ -19,8 +19,7 @@ To understand what makes a password strong by creating multiple passwords, testi
 | `S3cur3P@$$w0Rd!`      | 100%           | PasswordMeter.com      | Very strong: long, random phrase-based   |
 | `H!@k3r_M!nd_789`      | 100%           | PasswordMeter.com      | Very strong: high complexity and length  |
 
-📸 All screenshots of evaluations are saved in the `[/screenshots]()` folder.
-
+📸 All screenshots of evaluations are saved in the [/screenshots](https://github.com/0xV1RU/Elevate_lab_intern/tree/main/task-6/screenshots) folder.
 
 ---
 
