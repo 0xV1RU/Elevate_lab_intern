@@ -4,9 +4,14 @@ To understand what makes a password strong by creating multiple passwords, testi
 
 ---
 ### 🛠 Tools Used:
-- [PasswordMeter.com](https://passwordmeter.com/)
-- [Kaspersky Password Checker](https://password.kaspersky.com/)
-- [Security.org Password Strength](https://www.security.org/how-secure-is-my-password/)
+- [PasswordMeter.com](https://passwordmeter.com/) - 
+This tool analyzes password strength based on complexity factors like length, use of uppercase/lowercase, numbers, symbols, and repetitions. It gives a **score (0–100%)** and detailed **feedback** on improvements.
+- [Kaspersky Password Checker](https://password.kaspersky.com/) -
+Checks how long it would take to crack your password using different types of attacks (brute force, etc.).  
+Also checks if the password has been found in known **data breaches** or **leaked password databases**.
+- [Security.org Password Strength](https://www.security.org/how-secure-is-my-password/) -
+Provides a visual estimation of how long it would take a hacker to crack the password using automated tools.  
+Gives security tips and promotes stronger alternatives.
 
 ---
 ### 🔑 Password Samples and Results:
