@@ -24,7 +24,9 @@ Action Taken:
 ### Review Code:
  Upon investigating the website linked to the “Word to PDF Converter Pro” extension, I discovered the following:
 - No clear privacy or data usage policy for uploaded documents
-- Suspicious ad injection via third-party scripts like storeads.io
+- Suspicious ad injection via third-party scripts like storeads.io, storeads.io is linked with low-quality ad networks, sometimes used in adware campaigns or fake download prompts.
+![image](https://github.com/user-attachments/assets/c8334806-5a3a-4edf-a3b1-929ccbd9b036)
+
 - Fake prefilled email field (`fakeemail@fakeemail.com`) indicates bad coding practices
 ![image](https://github.com/user-attachments/assets/0278badf-7c83-493b-b28d-5a6360cd876e)
 - No HTTPS security headers or file handling disclosures
