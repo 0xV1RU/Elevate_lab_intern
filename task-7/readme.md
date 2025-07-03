@@ -35,7 +35,6 @@ Suspicious Extension [***1: PDF Converter Pro***](https://chromewebstore.google.
 - Developer: Unknown
 - Reviews: Negative, mentions of browser hijacking
 - Action: Removed
-"Click the link below to view the evidence related to `*word to pdf converter*`: [evidence.md](https://github.com/0xV1RU/Elevate_lab_intern/blob/main/task-7/%F0%9F%93%81%20evidence.md)"
 
 Suspicious Extension ***2: Search Manager***
 - Permissions: Change default search engine, track browsing activity
