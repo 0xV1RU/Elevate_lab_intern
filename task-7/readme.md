@@ -93,3 +93,6 @@ Malicious browser extensions can cause a variety of serious security and privacy
 - Gained awareness of how browser extensions can compromise security.
 - Learned to check permissions, reviews, and developer credibility.
 - Realized the importance of keeping browser environments clean.
+- Learned to cross-verify extensions using VirusTotal, Chrome Store reviews, and developer transparency.
+- Understood that even if an extension passes antivirus scan, poor permissions and shady developer behavior are red flags.
+
