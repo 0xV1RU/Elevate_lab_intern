@@ -21,4 +21,15 @@ Action Taken:
 ---
 ![image](https://github.com/user-attachments/assets/ffd86627-4d9c-4616-8496-5cc4eee6b86a)
 
+### Review Code:
+ Upon investigating the website linked to the “Word to PDF Converter Pro” extension, I discovered the following:
+- No clear privacy or data usage policy for uploaded documents
+- Suspicious ad injection via third-party scripts like storeads.io
+- Fake prefilled email field (`fakeemail@fakeemail.com`) indicates bad coding practices
+![image](https://github.com/user-attachments/assets/0278badf-7c83-493b-b28d-5a6360cd876e)
+- No HTTPS security headers or file handling disclosures
+- Attempts to monetize via shady key purchase links
+- Potential data harvesting of sensitive Word, Excel, and PDF files
+
+Due to these risks, the website and its associated Chrome extension should be considered unsafe and removed.
 
