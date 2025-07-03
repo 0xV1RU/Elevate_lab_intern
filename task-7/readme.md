@@ -29,7 +29,7 @@ Inspected each extension based on the following criteria:
 
   Based on the above checks, the following extensions were identified as suspicious:
 
-Suspicious Extension ***1: PDF Converter Pro***
+Suspicious Extension [***1: PDF Converter Pro***](https://chromewebstore.google.com/detail/word-to-pdf-converter-pro/ddbmednkcaaciannkbjaineoecjkclfg)
 
 - Permissions: Access to all websites
 - Developer: Unknown
