@@ -44,7 +44,25 @@ To gain hands-on experience using a VPN and understand its role in privacy and s
 - Browsing speed without VPN: (Mention if faster/slower)
 - IP address returned to normal.
 
+## Screenshots
+All screenshots related to VPN setup and verification are available in the `/screenshots` folder.
+
 ## VPN Encryption & Privacy Research:
 - VPN Encryption: VPNs encrypt your internet traffic using protocols like OpenVPN or WireGuard to prevent eavesdropping.
 - Tunneling Protocols: Used for creating secure “tunnels” between user and VPN server.
 - Common Protocols: OpenVPN, IKEv2, WireGuard.
+
+##  VPN Benefits:
+- Encrypts traffic on public Wi-Fi
+- Hides IP address from websites
+- Helps bypass geo-restrictions
+- Prevents ISP tracking
+
+## VPN Limitations:
+- Slower speed due to encryption
+- Not 100% anonymous (VPN provider may log)
+- Some sites block VPNs
+- Free VPNs have limited servers and speed
+
+## Summary
+VPNs are essential privacy tools but have limitations in speed and anonymity. They work best when combined with secure browsing habits.
