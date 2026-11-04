@@ -8,8 +8,8 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 
   	ifconfig , ip 
 	
- 	eth0: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        		inet 192.168.228.129  netmask 255.255.255.0  broadcast 192.168.228.255
+ 	`eth0`: flags= 4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        		inet `192.168.228.129`  netmask `255.255.255.0`  broadcast `192.168.228.255`
 		        inet6 fe80::20c:29ff:fe12:e534  prefixlen 64  scopeid 0x20<link>
 		        ether 00:0c:29:12:e5:34  txqueuelen 1000  (Ethernet)
 	        	RX packets 76  bytes 5483 (5.3 KiB)
@@ -31,15 +31,15 @@ Perform basic network scanning using Nmap to discover active devices, open ports
 ## 2.finding active machines
 
 
-	 sudo nmap -sn 192.168.228.0/24 -oN local_scan.txt 
+	 sudo nmap -sn `192.168.228.0/24` -oN local_scan.txt 
 		Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 15:41 IST
-		Nmap scan report for 192.168.228.73
+		Nmap scan report for `192.168.228.73`
 		Host is up (0.0022s latency).
 		MAC Address: 1A:F1:CC:80:01:F3 (Unknown)
-		Nmap scan report for 192.168.228.210
+		Nmap scan report for `192.168.228.210`
 		Host is up (0.0077s latency).
 		MAC Address: 4E:B0:1A:6D:57:8E (Unknown)
-		Nmap scan report for 192.168.228.129
+		Nmap scan report for `192.168.228.129`
 		Host is up.
 		Nmap done: 256 IP addresses (3 hosts up) scanned in 3.01 seconds
 
